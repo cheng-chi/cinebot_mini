@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+</head>
+
+<body style="top:0; bottom: 0; left: 0; right: 0; position: absolute; margin: 0;">
+
+<div id="login" style="margin: 30px;">
+	Screen ID <input type="text" id="screenid">
+	<br>
+	Width (px) <input type="text" id="wPx">
+	<br>
+	Height (px) <input type="text" id="hPx">
+	<br>
+	px/cm <input type="text" id="ppcm">
+	<br>
+	Width (cm) <input type="text" id="wCm">
+	<br>
+	<button type="button" onclick="login()">Log In</button>
+	<button type="button" onclick="autofill()">Autofill</button>
+</div>
+
+<div id="color_bg" style="display: none;"></div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+<script src="./client.js"></script>
+
+</body>
+
+</html>
+
